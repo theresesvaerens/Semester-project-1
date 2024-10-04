@@ -19,6 +19,7 @@ A visitor can view a contribution showing information on how to contribute to th
 A visitor can view an exhibitions showing upcoming events and available exhibitions.
 A visitor can view a privacy policy page showing the museum's privacy policy.
 A visitor can view a terms and conditions page showing the museum's terms and conditions.
+ 
  Views
 Based on the user stories above, the minimum views required to complete the project are:
 Home page view
@@ -26,6 +27,7 @@ Contact page view
 Contribution page view
 Exhibitions page view
 Document page view
+
 Requirements
 Project images should be sized appropriately and optimised for web delivery.
 The project must be responsive on mobile, tablet and large screen devices.
@@ -35,6 +37,7 @@ The project must be built using semantic HTML elements.
 The project must adhere to the CSS DRY principle.
 The project must be well tested before delivery.
 The project design language must appeal to the target audience.
+
 Limitations
 Please be aware of the following project limitations:
 Teachers are not able to provide direct code assistance on the project.
@@ -42,6 +45,7 @@ You may discuss the project with your peers, but be wary of plagiarism rules.
 You may not use a CSS framework to complete this assignment.
 You may not use unlicensed imagery in this assignment.
 You may not use JavaScript in this assignment.
+
 Deliverables
 In order to complete the project we require the following assets to be supplied in your submission:
 (Figma) Style guide showing logo, colour scheme, typography and style rules.
@@ -50,6 +54,7 @@ In order to complete the project we require the following assets to be supplied 
 (GitHub Pages) Deployed project preview URL.
 (GitHub Projects) Project Kanban board showing project progress.
 (Word) Written report including references.
+
 Resources
 The client has supplied suggested images and text content that can be used on the site. These resources are licensed for use for a web project. Content is supplied *as is* from the client and has not been edited.
 
