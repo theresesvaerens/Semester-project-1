@@ -1,58 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Comunity Sience Museum | Home</title>
-        <link rel="stylesheet" href="css/_style.css">
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    </head>
-    <body>
-        <header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Science Museum | Home</title>
+    <link rel="stylesheet" href="css/_style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
         <nav class="navbar">
-            <div class="navbar.container">
-                <h1> Comunity Sience Museum</h1>
+            <div class="navbar-container">
+                <h1>Community Science Museum</h1>
             </div>
-            <div class="menu.container">
-            <ul class="menu.list">
-                <li class="menu.list.item">Visit us</li>
-                <li class="menu.list.item">Exhibitions</li>
-                <li class="menu.list.item">Contribution</li>
-            </ul>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li><a href="about.html">Visit us</a></li>
+                    <li><a href="exhibitions.html">Exhibitions</a></li>
+                    <li><a href="contribution.html">Contribution</a></li>
+                </ul>
             </div>
-            <div class="icon.contatiner">
+            <div class="icon-container">
                 <i class="navbar_menu_icon fa-solid fa-magnifying-glass"></i>
             </div>
         </nav>
-        </header>
-        <main>
-            <section>
-                <div class="header.image">
-                    <img src="Images/AIandrobotics.jpg" alt="VR glasses" class="header.image">
-                </div>
-                <div class="scroll.container1">
-                </div>
-                <div class="scroll.container2">
+    </header>
+    <main>
+        <section>
+            <section class="vr">
+                <img src="Images/AIandrobotics.jpg" alt="VR experience" class="header-image">
+                <button>Buy tickets to guided tour here</button>
+            </section>
+            <section class="exhibition-spaces">
+                <h2>Exhibition Spaces</h2>
+                <div class="scroll-container">
+                    <a href="exhibitions.html"><div class="exhibition.spaces"><img src="Images/Astronaut.jpg" alt="Astronaut"></div></a>
+                    <a href="exhibitions.html"><div class="exhibition.spaces"><img src="Images/mammoth-1257288_1920.jpg"></div></a>
+                    <a href="exhibitions.html"><div class="exhibition.spaces"><img src="Images/Moonphase.jpg"></div></a>
+                    <a href="exhibitions.html"><div class="exhibition.spaces"><img src="Images/skeleton-414543_1920.jpg"></div></a>
                 </div>
             </section>
-        </main>
-        <footer>
-            <ul class="footer.menu">
-                <li><a href="about.html">About us</a></li>
-                <li><a href="contact.html">Contact us</a></li>
-                <li><a href="termsprivacy.html">Terms and privacy policy</a></li>
-            </ul>
-            <div class="contact.info">
-                <i class="fa-solid fa-phone">+47 123 45 678</i>
-                <i class="fa-solid fa-envelope">hello@csm.no</i>
-                <i class="fa-solid fa-location-dot">Thormøhlens gate 51, 5006 Bergen</i>
+            <section class="upcoming-events">
+                <h2>Upcoming Events</h2>
+                <div class="scroll-container">
+                    <a href="events.html"><div class="events"><img src="Images/nightonthemuseum.jpg"></div></a>
+                </div>
+            </section>
+            <section class="about">
+                <h2>"Explore Together"</h2>
+                <p>Come join us at the Community Science Museum where we're committed to making science accessible to all. 
+                    Over the course of human history, science has developed from our early understanding of fire, wind, water, 
+                    and earth to exploring everything from galaxies far away to the very building blocks of life itself.
+                </p>
+                <p>
+                    The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and 
+                    perhaps even ignite a lifelong passion to continue the exploration of the world around us.  
+                </p>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <ul class="footer-menu">
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="termsprivacy.html">Terms and privacy policy</a></li>
+        </ul>
+        <div class="contact-info">
+            <div class="icon-text">
+                <i class="fa-solid fa-phone"></i>
+                <span>+47 123 45 678</span>
             </div>
-            <div class="social.media">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-youtube"></i>
+            <div class="icon-text">
+                <i class="fa-solid fa-envelope"></i>
+                <span>hello@csm.no</span>
             </div>
-            <p>©2024 Community Sience Museum, all rigths reserved</p>
-        </footer>
-    </body>
+            <div class="icon-text">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Thormøhlens gate 51, 5006 Bergen</span>
+            </div>
+        </div>
+        <div class="social-media">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="footer-hours">
+            <p>Opening hours</p>
+            <p>Monday: Closed</p>
+            <p>Tuesday - Thursday: 10:00 - 16:00</p>
+            <p>Friday: 10:00 - 19:00</p>
+            <p>Saturday - Sunday: 9:00 - 16:00</p>
+        </div>
+        <div class="rights">
+        <p>©2024 Community Science Museum, all rights reserved</p>
+        </div>
+    </footer>
+</body>
 </html>
