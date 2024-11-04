@@ -25,12 +25,9 @@ h1, h2 {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: rgba(30, 30, 30, 0.8);
 }
 
-.navbar-container h1 {
-    color: #F2F2F2;
-    font-size: 15px;
+.logo-container {
 }
 
 .menu-container {
