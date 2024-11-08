@@ -3,11 +3,6 @@
     text-align: center;
 }
 
-.header-image {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-}
 
 .vr button {
     position: absolute;
