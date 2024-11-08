@@ -1,0 +1,40 @@
+.exhibition-spaces {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.exhibition-spaces h2 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.exhibition-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.exhibition-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.exhibition-content {
+    max-width: 500px;
+}
+
+.exhibition-content h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.exhibition-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #D1D1D1;
+}
