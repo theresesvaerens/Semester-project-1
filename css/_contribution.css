@@ -1,0 +1,16 @@
+
+.contribution {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 100px;
+    max-width: 80%;
+
+}
+
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
