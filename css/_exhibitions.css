@@ -1,5 +1,5 @@
 .exhibition-spaces {
-    max-width: 800px;
+    max-width: 90%;
     margin: 40px auto;
     padding: 20px;
 }
@@ -13,18 +13,18 @@
 .exhibition-item {
     display: flex;
     align-items: flex-start;
-    gap: 20px;
+    gap: 50px;
     margin-bottom: 40px;
 }
 
 .exhibition-item img {
-    width: 200px;
+    width: 50%;
     height: auto;
     border-radius: 5px;
 }
 
 .exhibition-content {
-    max-width: 500px;
+    max-width: 90%;
 }
 
 .exhibition-content h3 {
