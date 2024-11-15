@@ -29,6 +29,16 @@
     text-align: center;
 }
 
+
+.exhibition-section h2:hover {
+    color: #FF5C5C;
+    cursor: pointer;
+}
+.upcoming-events h2:hover {
+    color: #FF5C5C;
+    cursor: pointer;
+}
+
 .scroll-container {
     display: flex;
     gap: 20px;
@@ -54,6 +64,11 @@
     font-weight: 300;
     color: #F2F2F2;
     margin-bottom: 20px;
+}
+
+.about h2:hover {
+    color: #FF5C5C;
+    cursor: pointer;
 }
 
 .about p {
