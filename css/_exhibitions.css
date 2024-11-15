@@ -1,3 +1,35 @@
+.title-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.categories {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.category {
+    font-size: 18px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.category:hover {
+    color:  #FF5C5C;
+}
+
+.separator-line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 2px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+
 .exhibition-spaces {
     max-width: 90%;
     margin: 40px auto;
