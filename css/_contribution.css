@@ -2,15 +2,19 @@
 .contribution {
     display: flex;
     flex-direction: column;
+    padding: 50px;
     max-width: 90%;
+    margin: 0, auto;
 }
-.contribution h2{
+.contribution h2 {
     text-align: center;
 }
-.contribution h3{
-    text-align: left;
-    padding-left: 450px;
 
+.contribution h3, 
+.contribution p {
+    margin-left: 0;
+    padding-left: 0; 
+    line-height: 1.5; 
 }
 
 .image {

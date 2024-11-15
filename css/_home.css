@@ -1,10 +1,10 @@
-.vr {
+.ticket-button {
     position: relative;
     text-align: center;
 }
 
 
-.vr button {
+.ticket-button button {
     position: absolute;
     bottom: 7px;
     left: 50%;
@@ -20,7 +20,7 @@
     width: 100%;
 }
 
-.vr button:hover {
+.ticket-button button:hover {
     background-color: #FF5C5C;
 }
 
