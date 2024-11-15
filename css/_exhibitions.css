@@ -29,22 +29,12 @@
     width: 100%;
 }
 
-
-.exhibition-spaces {
-    max-width: 90%;
-    margin: 40px auto;
-    padding: 20px;
-}
-
-.exhibition-spaces h2 {
-    font-size: 24px;
-    font-weight: 300;
-    margin-bottom: 20px;
-}
+.exhibition-spaces{
+    margin-left: 50px;
+}  
 
 .exhibition-item {
     display: flex;
-    align-items: flex-start;
     gap: 50px;
     margin-bottom: 40px;
 }
@@ -56,17 +46,15 @@
 }
 
 .exhibition-content {
-    max-width: 90%;
+    text-align: left;
 }
 
 .exhibition-content h3 {
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 10px;
 }
 
 .exhibition-content p {
     font-size: 16px;
     line-height: 1.6;
-    color: #D1D1D1;
 }
