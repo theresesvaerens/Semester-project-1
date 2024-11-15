@@ -9,7 +9,6 @@
 
 .events-section h2 {
     width: 100%;
-    font-size: 2rem;
     margin-bottom: 20px;
     text-align: center;
     display: block;
@@ -19,7 +18,7 @@
     flex: 1;
     border-radius: 8px;
     overflow: hidden;
-    background-color: #f0f0f0; 
+    background-color: #1e1e1e; 
 }
 
 .events-section .section1 img,
@@ -32,7 +31,6 @@
 
 .events-section .event-info {
     padding: 20px;
-    color: white;
 }
 
 .events-section .brown-bg {
@@ -43,11 +41,19 @@
     background-color: #5c4f7f;
 }
 
-.events-section .event-info h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
+@media (max-width: 768px) {
+    .events-section {
+        flex-direction: column; 
+        gap: 10px; 
+        padding: 20px; 
+    }
 
-.events-section .event-info p {
-    font-size: 1rem;
+    .events-section .section1, .events-section .section2, .events-section .section3 {
+        flex: none; 
+        width: 100%; 
+    }
+
+    .events-section h2 {
+        font-size: 1.8rem; 
+    }
 }
