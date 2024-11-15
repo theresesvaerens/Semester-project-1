@@ -2,11 +2,16 @@
 .contribution {
     display: flex;
     flex-direction: column;
-    text-align: left;
-    padding-left: 100px;
-    max-width: 80%;
+    max-width: 90%;
 }
+.contribution h2{
+    text-align: center;
+}
+.contribution h3{
+    text-align: left;
+    padding-left: 450px;
 
+}
 
 .image {
     display: flex;
