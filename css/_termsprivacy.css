@@ -1,21 +1,24 @@
+
 .terms-and-conditions {
-    padding-left: 100px;
-    padding-right: 100px;
-}    
-
-h1 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    max-width: 90%;
+    margin: 0, auto;
+    margin-top: 50px;
+}
+.terms-and-conditions h2 {
     text-align: center;
-    margin-bottom: 20px;
 }
 
-h3 {
-    margin-top: 20px;
+.terms-and-conditions h3, 
+.terms-and-conditions p,
+.terms-and-conditions ul, {
+    margin-left: 0;
+    padding-left: 0; 
+    line-height: 1.5; 
 }
 
-p, li {
-    margin-bottom: 10px;
-}
-
-ul {
-    margin-left: 20px;
+.terms-and-conditions h3 {
+margin-top: 20px;
 }
