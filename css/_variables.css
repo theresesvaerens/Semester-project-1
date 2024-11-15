@@ -98,7 +98,6 @@ h1, h2 {
 }
 
 .menu-list li a {
-    color: #F2F2F2;
     font-size: 18px;
     font-weight: 300;
     transition: color 0.3s;
@@ -106,6 +105,11 @@ h1, h2 {
 
 .menu-list li a:hover {
     color: #FF5C5C;
+}
+
+.menu-list li a.active {
+    color: #FF5C5C; 
+    font-weight: bold;
 }
 
 
@@ -187,6 +191,9 @@ footer {
     color: #FF5C5C;
 }
 
+.footer-menu a.active {
+    color: #FF5C5C;
+}
 
 .social-media i:hover {
     color: #FF5C5C;
