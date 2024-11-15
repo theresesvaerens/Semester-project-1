@@ -1,5 +1,11 @@
+.info-section {
+    display: flex;
+    gap: 20px; 
+    justify-content: space-between; 
+}
+
 .hours, .location, .admission, .accessibility, .food-and-drinks, .shop {
-    background-color: white;
+    background-color: rgb(164, 159, 159);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -8,17 +14,28 @@
 
 .hours p, .location p, .admission p, .accessibility p, .food-and-drinks p, .shop p {
     margin: 10px 0;
+    text-align: left;
     color: black;
 }
 
+.hours h2, .location h2, .admission h2, .accessibility h2, .food-and-drinks h2, .shop h2 {
+    margin: 10px 0;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .hours, .location, .admission, .accessibility, .food-and-drinks, .shop {
+        flex: 1 1 100%;
+    }
+
 .icon-container i, .icon i {
     font-size: 30px;
-    color: #333;
+    color: #000000;
     margin-right: 10px;
 }
 
 iframe {
-    width: 100%;
+    width: 50%
     height: 400px;
     border: none;
     margin-top: 20px;
@@ -26,7 +43,8 @@ iframe {
 
 .image-museum img {
     width: 100%;
-    height: auto;
+    height: 600px;
     margin-top: 20px;
+    object-fit: cover;
 }
 
