@@ -1,0 +1,56 @@
+.explore h1 {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.explore p, h2 {
+    text-align: left; 
+    margin: 10px 20px;
+}
+
+.explore h2 {
+    margin-left: 40px;
+}
+
+.explore img {
+    width: 200px;
+    height: auto;
+    margin-left: 40px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; 
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.95rem; 
+        margin: 10px 15px;
+    }
+
+    body {
+        padding: 10px; 
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem; 
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem; 
+    }
+
+    body {
+        padding: 5px;
+    }
+}
