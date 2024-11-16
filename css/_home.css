@@ -24,7 +24,7 @@
     background-color: #FF5C5C;
 }
 
-.exhibition-section, .upcoming-events {
+.exhibition-section h2, .upcoming-events h2 {
     padding: 40px 20px;
     text-align: center;
 }
@@ -33,10 +33,12 @@
 .exhibition-section h2:hover {
     color: #FF5C5C;
     cursor: pointer;
+    text-decoration: underline;
 }
 .upcoming-events h2:hover {
     color: #FF5C5C;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .scroll-container {
@@ -64,11 +66,13 @@
     font-weight: 300;
     color: #F2F2F2;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .about h2:hover {
     color: #FF5C5C;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .about p {
