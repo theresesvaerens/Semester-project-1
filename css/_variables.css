@@ -224,6 +224,27 @@ footer {
     cursor: pointer;
 }
 
+@media (min-width: 770px) {
+    .menu-container {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        position: static; 
+        width: auto;
+        padding: 0;
+    }
+
+    .menu-list {
+        flex-direction: row; 
+        gap: 25px; 
+    }
+
+    .hamburger-icon {
+        display: none; 
+    }
+}
 
 @media (max-width: 769px) {
     .menu-container {
