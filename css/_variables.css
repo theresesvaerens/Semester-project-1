@@ -238,6 +238,37 @@ footer {
 
     .hamburger-icon {
         display: block; 
+        padding: 15px;
+    }
+
+    .logo-container {
+        display: flex; 
+        align-items: center; 
+        gap: 15px; 
+        margin-left: 10px;
+    }
+    
+    .logo-container img {
+        flex-shrink: 0; 
+        width: 30px; 
+        height: auto; 
+    }
+
+    .text-container h1 {
+        font-size: 15px;
+        line-height: 1.2;
+        margin: 0;
+        color: #FFFFFF;
+        letter-spacing: 2px;
+    }
+    
+    .text-container h2 {
+        font-size: 8px;
+        margin: 0;
+        display: flex;
+        text-align: center;
+        color: #FFFFFF;
+        letter-spacing: 1px;
     }
 }
 
@@ -261,7 +292,7 @@ footer {
     }
 
     .footer-menu a {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .contact-info .icon-text {
@@ -270,7 +301,9 @@ footer {
     }
 
     .footer-hours p {
-        font-size: 14px;
+        font-size: 15px;
+        text-align: center;
+        max-width: 90%;
     }
 
     .social-media i {
@@ -289,14 +322,21 @@ footer {
     }
 
     .footer-menu a {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .footer-hours p {
-        font-size: 12px;
+        font-size: 15px;
+        text-align: center;
+        max-width: 90%;
     }
 
     .social-media i {
         font-size: 16px;
+    }
+
+    .rights p {
+        text-align: center;
+        max-width: 90%;
     }
 }
