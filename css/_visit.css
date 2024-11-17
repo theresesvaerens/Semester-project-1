@@ -1,5 +1,8 @@
 .visit-us h1{
     text-align: center;
+    font-size: 34px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .info-section {
@@ -76,6 +79,9 @@
 
     .hours, .location, .admission, .accessibility, .food-and-drinks, .shop {
         flex: 1 1 100%;
+    }
+    .visit-us h1 {
+        font-size: 1.5rem; 
     }
 }
 

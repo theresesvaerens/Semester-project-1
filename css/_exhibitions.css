@@ -1,6 +1,4 @@
-.html {
-    scroll-behavior: smooth; 
-}
+
 .title-section h1 {
     margin-bottom: 20px;
     text-align: center;
@@ -23,7 +21,7 @@
 }
 
 .separator-line {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     height: 2px;
     background-color: #ffffff;
