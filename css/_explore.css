@@ -30,6 +30,7 @@
     p {
         font-size: 0.95rem; 
         margin: 10px 15px;
+        max-width: 90%;
     }
 
     body {
