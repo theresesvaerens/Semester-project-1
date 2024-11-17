@@ -28,6 +28,16 @@
     flex: 1 1 100%;
 }
 
+.admission a{
+    color: black;
+    font-weight: bold;
+}
+
+.admission a:hover{
+    text-decoration: underline;
+    color:#FF5C5C;
+}
+
 .accessibility, .food-and-drinks {
     flex: 1 1 calc(50% - 20px); 
 }
