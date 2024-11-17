@@ -33,12 +33,20 @@
     padding: 20px;
 }
 
-.events-section .brown-bg {
+.events-section .section1{
     background-color: #4d3b2f;
 }
 
-.events-section .purple-bg {
+.events-section .section2{
     background-color: #5c4f7f;
+}
+
+.events-section .section3{
+    background-color: #111a48;
+}
+
+.event-info p{
+    max-width: 95%;
 }
 
 @media (max-width: 768px) {
