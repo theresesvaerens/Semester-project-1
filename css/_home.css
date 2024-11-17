@@ -47,6 +47,8 @@
     gap: 10px;
     padding: 10px, 0;
     width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .scroll-container2 {
